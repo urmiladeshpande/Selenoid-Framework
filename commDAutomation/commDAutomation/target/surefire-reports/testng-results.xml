@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-02T09:05:11Z" name="Remedy Automation Validation Suite" finished-at="2023-02-02T09:05:21Z" duration-ms="10063">
+    <groups>
+    </groups>
+    <test started-at="2023-02-02T09:05:11Z" name="Rep Portal Login validation" finished-at="2023-02-02T09:05:21Z" duration-ms="10063">
+      <class name="test.HomePage.RemdyLoginPageValidation">
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:test.HomePage.RemdyLoginPageValidation@4b9df8a]" started-at="2023-02-02T09:05:11Z" name="beforeSuite" finished-at="2023-02-02T09:05:11Z" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6979efad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:test.HomePage.RemdyLoginPageValidation@4b9df8a]" started-at="2023-02-02T09:05:11Z" name="beforeMethod" description="Initialize web driver configuration" finished-at="2023-02-02T09:05:11Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.HomePage.RemdyLoginPageValidation.verifyLogIn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLogIn()[pri:0, instance:test.HomePage.RemdyLoginPageValidation@4b9df8a]" started-at="2023-02-02T09:05:11Z" name="verifyLogIn" description="Verify Login Page" finished-at="2023-02-02T09:05:20Z" duration-ms="8678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogIn -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:test.HomePage.RemdyLoginPageValidation@4b9df8a]" started-at="2023-02-02T09:05:20Z" name="tearDown" description="Close driver" finished-at="2023-02-02T09:05:21Z" duration-ms="529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.HomePage.RemdyLoginPageValidation.verifyLogIn()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyLogIn status=SUCCESS method=RemdyLoginPageValidation.verifyLogIn()[pri:0, instance:test.HomePage.RemdyLoginPageValidation@4b9df8a] output={null}]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@6979efad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getReport()[pri:0, instance:test.HomePage.RemdyLoginPageValidation@4b9df8a]" started-at="2023-02-02T09:05:21Z" name="getReport" finished-at="2023-02-02T09:05:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReport -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.HomePage.RemdyLoginPageValidation@4b9df8a]" started-at="2023-02-02T09:05:21Z" name="afterSuite" finished-at="2023-02-02T09:05:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.HomePage.RemdyLoginPageValidation -->
+    </test> <!-- Rep Portal Login validation -->
+  </suite> <!-- Remedy Automation Validation Suite -->
+</testng-results>
